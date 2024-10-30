@@ -1,0 +1,22 @@
+diaFrag/
+├── .git/
+├── src/
+│   ├── components/
+│   │   ├── chartBar.js
+│   │   ├── chartDonut.js
+│   │   ├── chartLine.js
+│   │   ├── chartPie.js
+│   │   ├── chartPolarArea.js
+│   │   ├── chartRadar.js
+│   │   ├── chartUtils.js
+│   │   └── theme.js
+│   ├── styles/
+│   │   ├── layout.css
+│   │   ├── main.css
+│   │   └── theme.css
+│   ├── 20241030_101403_src_structure.txt
+│   ├── script.js
+│   └── skryper_2024-10-11_20-05-09 .exe
+├── diaFrag.code-workspace
+├── index.html
+└── skryper_2024-10-11_20-05-09 .exe
