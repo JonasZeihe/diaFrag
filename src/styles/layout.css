@@ -1,0 +1,129 @@
+/* Header */
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.app-description {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Input Section */
+.input-section {
+  background-color: var(--card-bg);
+  padding: 15px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 8px 16px var(--shadow-color);
+  margin-bottom: 20px;
+}
+
+.input-label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  color: var(--text-color);
+}
+
+.dropdown,
+.json-input,
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  margin-top: 10px;
+  border-radius: var(--border-radius);
+  border: 1px solid #ccc;
+}
+
+.json-input {
+  resize: vertical;
+  height: 100px;
+  background-color: var(--input-bg);
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.submit-button {
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9em;
+}
+
+.theme-toggle label {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+/* Chart Card */
+.chart-card {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  box-shadow: 0 8px 16px var(--shadow-color);
+  text-align: center;
+}
+
+.canvas-container {
+  position: relative;
+}
+
+canvas {
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+/* Legend and Statistics */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  background-color: var(--legend-bg);
+  border-radius: var(--border-radius);
+  margin-top: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  color: var(--text-color);
+}
+
+.legend-swatch {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.statistics {
+  font-size: 0.9em;
+  color: var(--text-color);
+  margin-top: 10px;
+}

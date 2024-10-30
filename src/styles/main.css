@@ -1,0 +1,39 @@
+/* Farb- und Layout-Variablen */
+:root {
+  --bg-color: #f5f7fa;
+  --text-color: #333;
+  --card-bg: #ffffff;
+  --input-bg: #eef2f7;
+  --button-bg: #007bff;
+  --button-hover-bg: #0056b3;
+  --legend-bg: #f2f3f5;
+  --border-radius: 15px;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.app-container {
+  max-width: 800px;
+  width: 90%;
+  padding: 20px;
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: 0 10px 30px var(--shadow-color);
+}
